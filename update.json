@@ -1,8 +1,8 @@
 
 {
-  "version": "1.0.0",
-  "notes": "1. 首个正式版（版本号从 1.0 开始）\n2. 自动搜索串口/波特率/从站地址，正常 1 秒内出结果\n3. 参数写入后自动回读核对\n4. 趋势曲线 + 历史数据（不自动删，可手动按型号/时间清理）\n5. 断线自动重连、串口调试台（含设备主动上报解析）\n6. 数据类型助手、进制转换、一键反馈包\n7. 分类可自由新增/改名/删除\n8. 中英双语、5 套主题、小屏自适应",
+  "version": "1.1.0",
+  "notes": "1. 修复：连接状态下换型号后风速/风向等新通道不刷新（现在自动重排轮询，不用断开重连）\\n2. 加固：导出日志/报错失败会写 crash.log，并自动改用桌面或文档目录重试\\n3. 新增：风向按十六方位显示（角度型 0-360°、编码型 0x0000-0x000F）\\n4. 新增：工具 → 分类批量管理（一次把一批型号挪到别的分类）\\n5. 许可：改为非商业使用许可（禁止任何商业用途，详见 LICENSE）",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.0.0/rs485-1.0.0.zip",
-  "size_bytes": 63717623
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.1.0/rs485-1.1.0.zip",
+  "size_bytes": 63743704
 }
