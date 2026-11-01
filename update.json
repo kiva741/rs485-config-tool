@@ -1,8 +1,8 @@
 
 {
-  "version": "1.1.0",
-  "notes": "1. 修复：连接状态下换型号后风速/风向等新通道不刷新（现在自动重排轮询，不用断开重连）\\n2. 加固：导出日志/报错失败会写 crash.log，并自动改用桌面或文档目录重试\\n3. 新增：风向按十六方位显示（角度型 0-360°、编码型 0x0000-0x000F）\\n4. 新增：工具 → 分类批量管理（一次把一批型号挪到别的分类）\\n5. 许可：改为非商业使用许可（禁止任何商业用途，详见 LICENSE）",
+  "version": "1.2.0",
+  "notes": "1. 修复「复制邮箱实际成功却提示失败」：剪贴板调用改到后台线程 + 回读确认，不再误报，也不再卡界面。\n2. 按反馈去掉「写邮件」入口（部分电脑点「打开QQ邮箱」无响应）：联系方式只保留「复制邮箱」，粘到任意邮箱网页版即可。\n3. 反馈窗口步骤提示同步更新。\n4. 沿用上一版：反馈窗口联系方式卡片、关于窗口作者邮箱。",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.1.0/rs485-1.1.0.zip",
-  "size_bytes": 63743704
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.0/rs485-1.2.0.zip",
+  "size_bytes": 63770263
 }
