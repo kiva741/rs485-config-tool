@@ -1,8 +1,9 @@
 
 {
-  "version": "1.2.3",
-  "notes": "1. 界面字体可以调大调小（设置 → 界面字体大小…，滑块 85%~160%，会记住）\n2. 负数口径可全局设定（设置 → 负数口径：按通道 / 补码减 65536 / 反码减 65535）\n3. 串口调试窗口：收到的字节可以复制、可以导出成 txt\n4. 分类批量管理：勾选后「已勾选 N 个」和「移动」按钮实时刷新\n5. 管理密码窗口：左下角提示文字不再被裁\n6. 使用说明、软件介绍同步更新",
+  "version": "1.2.4",
+  "notes": "1. 在线更新支持 GitHub 镜像备用地址（Gitee 下载失败会自动改走 GitHub）\n2. README / 软件介绍补充 Gitee 与 GitHub 两个地址\n3. 其它：1.2.3 的字体调节、负数口径、串口导出保持不变",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.3/rs485-1.2.3.zip",
-  "size_bytes": 63790771
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.4/rs485-1.2.4.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.4/rs485-1.2.4.zip",
+  "size_bytes": 63792371
 }
