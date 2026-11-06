@@ -1,4 +1,4 @@
-﻿485 传感器配置工具 —— 非商业使用许可 v1.0
+485 传感器配置工具 —— 非商业使用许可 v1.0
 485 Sensor Configuration Tool — Non-Commercial License v1.0
 
 版权所有 (c) 2026 yuyu19。保留所有权利。
