@@ -1,18 +1,8 @@
 {
-      "version": "1.2.5",
-        "notes": "1. 新增「异常监听」：给任意通道设上限/下限，越限时响一声 + 弹窗（3 分钟限流，可勾「本通道今天不再提醒」）\n2. 阈值支持「设备优先、型号兜底」：同一个型号在不同现场可以设不同阈值\n3. 一段连续越限只记一条（含峰值、持续时长、超限点数），记录存在 data/alerts.db，默认保留 60 天\n4. 「设置」菜单新增「异常监听设置…」「异常记录…」；记录可筛选、导出 CSV、清理 60 天前\n5. 顶部工具条右侧新增红色「异常 N」角标，点开直接看记录\n6. 断线时自动收尾进行中的异常段，恢复连接后重新开始记录",
-          "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-            "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.5/rs485-1.2.5.zip",
-              "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.5/rs485-1.2.5.zip",
-                "size_bytes": 63837335
-}
-
-}
-{
-  "version": "1.2.4",
-  "notes": "1. 在线更新支持 GitHub 镜像备用地址（Gitee 下载失败会自动改走 GitHub）\n2. README / 软件介绍补充 Gitee 与 GitHub 两个地址\n3. 其它：1.2.3 的字体调节、负数口径、串口导出保持不变",
+  "version": "1.2.5",
+  "notes": "1. 新增「异常监听」：给任意通道设上限/下限，越限时响一声 + 弹窗（3 分钟限流，可勾「本通道今天不再提醒」）\n2. 阈值支持「设备优先、型号兜底」：同一个型号在不同现场可以设不同阈值\n3. 一段连续越限只记一条（含峰值、持续时长、超限点数），记录存在 data/alerts.db，默认保留 60 天\n4. 「设置」菜单新增「异常监听设置…」「异常记录…」；记录可筛选、导出 CSV、清理 60 天前\n5. 顶部工具条右侧新增红色「异常 N」角标，点开直接看记录\n6. 断线时自动收尾进行中的异常段，恢复连接后重新开始记录",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.4/rs485-1.2.4.zip",
-  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.4/rs485-1.2.4.zip",
-  "size_bytes": 63793266
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.5/rs485-1.2.5.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.5/rs485-1.2.5.zip",
+  "size_bytes": 63837335
 }
