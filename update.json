@@ -1,8 +1,8 @@
 {
-  "version": "1.2.5",
-  "notes": "1. 新增「异常监听」：给任意通道设上限/下限，越限时响一声 + 弹窗（3 分钟限流，可勾「本通道今天不再提醒」）\n2. 阈值支持「设备优先、型号兜底」：同一个型号在不同现场可以设不同阈值\n3. 一段连续越限只记一条（含峰值、持续时长、超限点数），记录存在 data/alerts.db，默认保留 60 天\n4. 「设置」菜单新增「异常监听设置…」「异常记录…」；记录可筛选、导出 CSV、清理 60 天前\n5. 顶部工具条右侧新增红色「异常 N」角标，点开直接看记录\n6. 断线时自动收尾进行中的异常段，恢复连接后重新开始记录",
+  "version": "1.2.6",
+  "notes": "1. 修好英文界面残留中文：以前发布包里只带 4 个示例型号，配套的译名表也被一起裁掉（只剩 27 条），程序却整份顶替了内置的 482 条 → 现在改成先用完整内置表、再用外置文件覆盖补充，且发布包直接带完整译名表\n2. 新增：型号编辑器里有「英文名」输入框 + 「自动生成」按钮，按中文名离线翻译出英文名（不联网），通道也可以逐个填/自动生成\n3. 新增：没见过的词可以自己加词根——exe 同目录放 485_NameTerms.csv，一行「中文,English」，优先级高于内置词表\n4. 自动翻译遇到翻不出来的字会保留中文（不会变成空白英文名），方便一眼看出哪里需要补\n5. 修掉几个测试之间互相干扰的偶发失败，全量单测 617 项稳定通过",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.5/rs485-1.2.5.zip",
-  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.5/rs485-1.2.5.zip",
-  "size_bytes": 63837335
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.6/rs485-1.2.6.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.6/rs485-1.2.6.zip",
+  "size_bytes": 63852489
 }
