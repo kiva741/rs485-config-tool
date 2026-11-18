@@ -1,8 +1,8 @@
 {
-  "version": "1.2.6",
-  "notes": "1. 修好英文界面残留中文：以前发布包里只带 4 个示例型号，配套的译名表也被一起裁掉（只剩 27 条），程序却整份顶替了内置的 482 条 → 现在改成先用完整内置表、再用外置文件覆盖补充，且发布包直接带完整译名表\n2. 新增：型号编辑器里有「英文名」输入框 + 「自动生成」按钮，按中文名离线翻译出英文名（不联网），通道也可以逐个填/自动生成\n3. 新增：没见过的词可以自己加词根——exe 同目录放 485_NameTerms.csv，一行「中文,English」，优先级高于内置词表\n4. 自动翻译遇到翻不出来的字会保留中文（不会变成空白英文名），方便一眼看出哪里需要补\n5. 修掉几个测试之间互相干扰的偶发失败，全量单测 617 项稳定通过",
+  "version": "1.2.7",
+  "notes": "1. 英文界面不再冒中文：没填英文名的型号/通道，按内置词根自动翻译显示（可在「设置」里关）\n2. 分类名跟着一起翻：My devices (custom) / Non-gas / Gas / Water quality，树形列表不再中英混排\n3. 新增「设置 → 批量补英文名…」：一次给几十个型号/通道/分类补英文名，可改、可导出 CSV、默认只补空\n4. 以前把中文塞进过英文名的老数据会被识别为「没翻好」，重新给建议\n5. 帮助菜单里几项（反馈、检查更新、分类批量管理、数据类型助手）切语言后不再停在旧语言\n6. 词根表补了 60 多个常见名词（土壤、红外、探头、角度、浓度、雨量、噪声…）\n7. 想加自己厂家专用词：exe 旁边放 485_NameTerms.csv（一行「中文,English」），不用改程序",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.6/rs485-1.2.6.zip",
-  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.6/rs485-1.2.6.zip",
-  "size_bytes": 63852489
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.7/rs485-1.2.7.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.7/rs485-1.2.7.zip",
+  "size_bytes": 63868889
 }
