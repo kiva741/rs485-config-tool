@@ -1,8 +1,8 @@
 {
-  "version": "1.2.7",
-  "notes": "1. 英文界面不再冒中文：没填英文名的型号/通道，按内置词根自动翻译显示（可在「设置」里关）\n2. 分类名跟着一起翻：My devices (custom) / Non-gas / Gas / Water quality，树形列表不再中英混排\n3. 新增「设置 → 批量补英文名…」：一次给几十个型号/通道/分类补英文名，可改、可导出 CSV、默认只补空\n4. 以前把中文塞进过英文名的老数据会被识别为「没翻好」，重新给建议\n5. 帮助菜单里几项（反馈、检查更新、分类批量管理、数据类型助手）切语言后不再停在旧语言\n6. 词根表补了 60 多个常见名词（土壤、红外、探头、角度、浓度、雨量、噪声…）\n7. 想加自己厂家专用词：exe 旁边放 485_NameTerms.csv（一行「中文,English」），不用改程序",
+  "version": "1.2.8",
+  "notes": "1. 英文名彻底不留中文：编辑器「自动生成」与「批量补英文名」的建议值翻译后剔除残留汉字，认不出的词留空（显示「缺英文名」），不再出现「黑球 temperature sensor」这类半中半英\n2. 补常用词根：黑球 / 值 / 氮气 / 氯化氢 / 氟气 / 气体 / 实时 / 小时 / 水质 / 多参数 / 可燃气 等\n3. 「仪」「计」统一翻成 meter：土壤盐分仪 → Soil salinity meter（以前会被吞成 Soil salinity）\n4. 油膜(1有/0无) → Oil Presence (1=Yes, 0=No)；水面油 → Water Surface Oil Sensor；油烟 / 油烟值统一 → VOCs\n5. 修正 485_EnNames.csv 里 241 行行尾写法问题，避免个别译名匹配不上\n6. 打开型号编辑器时，英文名里若还带汉字会自动换成干净译文，老数据不用手改",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.7/rs485-1.2.7.zip",
-  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.7/rs485-1.2.7.zip",
-  "size_bytes": 63868889
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.8/rs485-1.2.8.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.8/rs485-1.2.8.zip",
+  "size_bytes": 63870871
 }
