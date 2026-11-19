@@ -1,8 +1,8 @@
 {
-  "version": "1.2.8",
-  "notes": "1. 英文名彻底不留中文：编辑器「自动生成」与「批量补英文名」的建议值翻译后剔除残留汉字，认不出的词留空（显示「缺英文名」），不再出现「黑球 temperature sensor」这类半中半英\n2. 补常用词根：黑球 / 值 / 氮气 / 氯化氢 / 氟气 / 气体 / 实时 / 小时 / 水质 / 多参数 / 可燃气 等\n3. 「仪」「计」统一翻成 meter：土壤盐分仪 → Soil salinity meter（以前会被吞成 Soil salinity）\n4. 油膜(1有/0无) → Oil Presence (1=Yes, 0=No)；水面油 → Water Surface Oil Sensor；油烟 / 油烟值统一 → VOCs\n5. 修正 485_EnNames.csv 里 241 行行尾写法问题，避免个别译名匹配不上\n6. 打开型号编辑器时，英文名里若还带汉字会自动换成干净译文，老数据不用手改",
+  "version": "1.2.9",
+  "notes": "1. 新增「在线翻译英文名」：设置 → 批量补英文名… → 在线翻译…，用自己的密钥接 OpenAI 兼容接口（DeepSeek / 智谱 / 通义 / 本地 Ollama 均可）\n2. 密钥用 Windows DPAPI 加密保存在本机 data 目录，换电脑解不开；随时可在设置里一键删除，软件本身不含任何密钥\n3. 翻译结果只填进表格，确认无误点「应用」才写盘（写盘前自动备份 custom-models.json 和 ui-settings.json）\n4. 「导出翻译表 → 交给别的 AI 翻 → 导入翻译」仍然保留，没有外网时照样能用\n5. 术语按现场习惯补齐：NPK、土壤盐分 → soil salinity、油烟 → VOCs、水面油、仪/计 → meter 等\n6. 批量补英文名窗口建议值不再夹中文：翻不出来的留空，由你手填",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.8/rs485-1.2.8.zip",
-  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.8/rs485-1.2.8.zip",
-  "size_bytes": 63870871
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.9/rs485-1.2.9.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.9/rs485-1.2.9.zip",
+  "size_bytes": 63906673
 }
