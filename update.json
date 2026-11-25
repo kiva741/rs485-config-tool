@@ -1,8 +1,8 @@
 {
-  "version": "1.2.9",
-  "notes": "1. 新增「在线翻译英文名」：设置 → 批量补英文名… → 在线翻译…，用自己的密钥接 OpenAI 兼容接口（DeepSeek / 智谱 / 通义 / 本地 Ollama 均可）\n2. 密钥用 Windows DPAPI 加密保存在本机 data 目录，换电脑解不开；随时可在设置里一键删除，软件本身不含任何密钥\n3. 翻译结果只填进表格，确认无误点「应用」才写盘（写盘前自动备份 custom-models.json 和 ui-settings.json）\n4. 「导出翻译表 → 交给别的 AI 翻 → 导入翻译」仍然保留，没有外网时照样能用\n5. 术语按现场习惯补齐：NPK、土壤盐分 → soil salinity、油烟 → VOCs、水面油、仪/计 → meter 等\n6. 批量补英文名窗口建议值不再夹中文：翻不出来的留空，由你手填",
+  "version": "1.2.10",
+  "notes": "1. 修复：已连接但「自动重连失败」横幅一直不消失（连接成功后自动清掉）\n2. 新增：型号搜索框加占位提示「搜索型号名称或编码...」（中英双语）\n3. 新增自检 --banner-selftest：验证横幅在连接成功后一定消失、占位提示随输入显隐\n4. 其余与 1.2.9 相同（在线翻译、批量补英文名、异常监听等）",
   "page_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases",
-  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.9/rs485-1.2.9.zip",
-  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.9/rs485-1.2.9.zip",
-  "size_bytes": 63906673
+  "download_url": "https://gitee.com/yuyu_git/rs485-config-tool/releases/download/1.2.10/rs485-1.2.10.zip",
+  "download_url_alt": "https://github.com/kiva741/rs485-config-tool/releases/download/1.2.10/rs485-1.2.10.zip",
+  "size_bytes": 63908220
 }
